@@ -1,0 +1,24 @@
+.citacao, .atributos{
+    align-self: start;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    color: #FFFFFF;
+    
+}
+
+.descricao__citacao {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.atributos__descricao{
+    font-family: courier, monospace;
+    font-size: 1.125rem;
+    padding: 15px;
+    border-bottom: 2px solid #b07dfb;
+}

@@ -1,0 +1,63 @@
+@media screen and (max-width: 1200px){
+    .estrutura{
+        grid-template-areas: 
+        "cabecalho cabecalho cabecalho"
+        "sidenav conteudo conteudo"
+        "sidenav anuncios anuncios"
+        "rodape rodape rodape"
+        ;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .cabecalho{
+        grid-template-columns: auto;
+        justify-content: center;
+        
+    }
+
+    .logo{
+        margin-bottom: 1.5rem;
+    }
+
+    .menu__navegacao--item{
+        font-size: 1rem;
+        margin-right: .7rem;
+    }
+    .estrutura{
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "cabecalho"
+        "sidenav"
+        "conteudo"
+        "anuncios"
+        "rodape"
+        ;
+    }
+    .sidenav{
+        padding: 0 30px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .sidenav__menu{
+        display: flex;
+    }
+    .sidnav__menu--lista{
+        flex: 1 0 60px;
+    }
+    .menu__navegacao--latarel{
+        margin: 30px 30px 30px 0 ;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .conteudo{
+        grid-template-columns: auto;
+    }
+
+    .anuncios{
+        display: flex;
+    }
+
+}

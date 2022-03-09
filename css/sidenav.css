@@ -1,0 +1,20 @@
+.sidenav{
+    background: #fafbfc;
+    padding: 2rem;
+}
+
+.menu__navegacao--latarel{
+    display: block;
+    min-width: 60px;
+    max-width: 100px;
+    margin: 0 auto 30px auto;
+    background: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.60);
+    transition: 0.1s ease-out;
+}
+
+.menu__navegacao--latarel:hover{
+    background: #b07dfb;
+}

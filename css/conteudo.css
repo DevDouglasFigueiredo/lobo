@@ -1,0 +1,48 @@
+.conteudo{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.col-wide{
+    grid-column: 1 / -1;
+}
+
+.imagem__conteudo--1{
+    grid-row: span 2;
+    align-self: end;   
+}
+
+.imagem__conteudo--2{
+    align-self: end;
+}
+
+.descricao__conteudo{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    color: rgba(0, 0, 0, .7);
+}
+
+.descricao__conteudo--destaque{
+    font-size: 0.875rem;
+    color: #B07DFB;
+    max-width: 16rem;
+}
+
+.informacoes p + p{
+    margin-top: 2rem;
+}
+
+.titulo{
+    color: #B07DFB;
+}
+
+.titulo__conteudo{
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+}

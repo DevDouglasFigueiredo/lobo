@@ -1,0 +1,41 @@
+body{
+    font-family: 'Volkhov', serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    border: 5px;
+}
+
+.estrutura{
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "sidenav conteudo anuncios"
+    "rodape rodape rodape"
+    ;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.sidenav{
+    grid-area: sidenav;
+
+}
+
+.conteudo{
+    grid-area: conteudo;
+
+}
+
+.anuncios{
+    grid-area: anuncios;
+}
+
+.rodape{
+    grid-area: rodape;
+}

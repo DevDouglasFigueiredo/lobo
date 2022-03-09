@@ -1,0 +1,10 @@
+.rodape{
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+
+}
+
+.rodape__descricao{
+    padding: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+}
